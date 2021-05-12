@@ -5,9 +5,6 @@ from tqdm import tqdm
 import numpy as np
 import os
 
-import warnings
-warnings.simplefilter("ignore")
-
 
 def plot(R_gen, L_gen, C_gen, save_path):
   # N パターン試す
